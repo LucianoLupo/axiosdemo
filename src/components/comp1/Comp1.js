@@ -42,7 +42,8 @@ function Comp1() {
     <div className={styles.container1}>
     <div className={styles.linkContainer}>
         <a href="https://github.com/LucianoLupo/axiosdemo" target="_blank"> Ver Codigo en gitHub </a>
-        <a href="https://www.lucianolupo.com" target="_blank"> Mi portfolio </a>
+        <p>...</p>
+        {/* <a href="https://www.lucianolupo.com" target="_blank"> Mi portfolio </a> */}
     </div>
 
 
