@@ -100,6 +100,13 @@ function Comp1() {
         </>
         : <p style={{textAlign:'center'}}> Nothing found</p>
       }
+        <div className={styles.imgsContainer}>
+            {data.map(item => (
+                <img src={item.avatar} alt=""/>
+            ))}
+        </div>
+        
+      
 
     </div>
   );
