@@ -40,6 +40,12 @@ function Comp1() {
 
   return (
     <div className={styles.container1}>
+    <div className={styles.linkContainer}>
+        <a href="https://github.com/LucianoLupo/axiosdemo" target="_blank"> Ver Codigo en gitHub </a>
+        <a href="https://www.lucianolupo.com" target="_blank"> Mi portfolio </a>
+    </div>
+
+
     {
         <div style={{margin:'0 auto'}}>
             <input
@@ -93,6 +99,7 @@ function Comp1() {
         </>
         : <p style={{textAlign:'center'}}> Nothing found</p>
       }
+
     </div>
   );
 }
